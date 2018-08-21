@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="test" type="test"/>
+
+  <xs:complexType name="question">
+    <xs:sequence>
+      <xs:element name="answerA" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="answerB" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="answerC" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="answerD" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="content" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="correctAnswer" type="xs:string" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="test">
+    <xs:sequence>
+      <xs:element name="Questions" type="question" nillable="true" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

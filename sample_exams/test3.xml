@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<test>
+    <Questions>
+        <answerA>testa</answerA>
+        <answerB>testb</answerB>
+        <answerC>testc</answerC>
+        <answerD>testd</answerD>
+        <content>bleble</content>
+        <correctAnswer>A</correctAnswer>
+    </Questions>
+    <Questions>
+        <answerA>testa2</answerA>
+        <answerB>testb2</answerB>
+        <answerC>testc2</answerC>
+        <answerD>testd2</answerD>
+        <content>bleble2</content>
+        <correctAnswer>B</correctAnswer>
+    </Questions>
+	<Questions>
+        <answerA>testa3</answerA>
+        <answerB>testb3</answerB>
+        <answerC>testc3</answerC>
+        <answerD>testd3</answerD>
+        <content>bleble3</content>
+        <correctAnswer>C</correctAnswer>
+    </Questions>
+		<Questions>
+        <answerA>testa4</answerA>
+        <answerB>testb4</answerB>
+        <answerC>testc4</answerC>
+        <answerD>testd4</answerD>
+        <content>bleble4</content>
+        <correctAnswer>D</correctAnswer>
+    </Questions>
+</test>

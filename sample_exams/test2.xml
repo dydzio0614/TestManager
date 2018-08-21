@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<test>
+    <Questions>
+        <answerA>testa</answerA>
+        <answerB>testb</answerB>
+        <answerC>testc</answerC>
+        <answerD>testd</answerD>
+        <content>bleble</content>
+        <correctAnswer>a</correctAnswer>
+    </Questions>
+    <Questions>
+        <answerA>testa2</answerA>
+        <answerB>testb2</answerB>
+        <answerC>testc2</answerC>
+        <answerD>testd2</answerD>
+        <content>bleble2</content>
+        <correctAnswer>ab</correctAnswer>
+    </Questions>
+</test>
